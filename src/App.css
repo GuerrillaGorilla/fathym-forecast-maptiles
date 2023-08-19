@@ -1,0 +1,39 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.outer-container {
+  width: var(--mapwidth);
+  background-image: var(--mapBackground);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-container>div {
+  width: 256px;
+}
