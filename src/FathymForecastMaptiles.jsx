@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import LCUState from "./lcuState";
-import usaoutlines from '../public/usaoutlines.svg'
-import worldoutlines from '../public/worldoutlines.svg'
+import usaoutlines from '../public/usaoutlines.svg';
+import worldoutlines from '../public/worldoutlines.svg';
 
 /*  Fathym Forecast Maptiles LCU
 
