@@ -1,0 +1,15 @@
+{
+    "MapTilesAvailable": "/api/v0/maptile-manifest",
+    "MaptileAPIQuery": "/api/v0/maptile-fetch",
+    "HabistackAPIRoot": "/api/habistack",
+    "DefaultMaptilesPrefs": {
+        "Zoom": 2,
+        "XTiles": 4,
+        "YTiles": 3,
+        "MapTileType": "Temperature_2Meters",
+        "UsDetailedMap": false,
+        "MapsConfig": [],
+        "MapSetWidth": 1024,
+        "OverlayOpacity": 0.65
+    }
+}
